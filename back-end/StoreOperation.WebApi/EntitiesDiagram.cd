@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CheckList.WebApi.Entities.Log">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAIAEAAAA=</HashCode>
+      <FileName>Entities\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.Role">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Entities\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.ShopeStore">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCACAAACAABgAABBAAEAQAAAgECAAAAACAAAAAAAA=</HashCode>
+      <FileName>Entities\ShopeStore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manger" />
+      <Property Name="ProxyManager" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Users" />
+      <Property Name="AsistanManagers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.User">
+    <Position X="6" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAgQABBAAEAAQAAgAwAEACAQAACAAREAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Roles" />
+      <Property Name="ShopeStores" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.CheckListQuestion">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAIEAAAABgAAQAA=</HashCode>
+      <FileName>Entities\CheckListQuestion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Group" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.CheckList">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAAAAAAAAAAAAAAAEARQAAAEAAAA=</HashCode>
+      <FileName>Entities\CheckList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CheckListDay" />
+      <Property Name="Certifying" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Questions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.CheckListDay">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Entities\CheckListDay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShopeStore" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="CheckLists" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckList.WebApi.Entities.CheckListQuestionGroup">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\CheckListQuestionGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

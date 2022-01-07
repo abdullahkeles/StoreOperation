@@ -1,0 +1,6 @@
+﻿/.git
+/.idea
+/.vs
+/CheckList.WebApi/bin/Debug
+/CheckList.WebApi/obj
+/global.json
